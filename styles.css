@@ -1,0 +1,33 @@
+body{
+    background-color:black;
+    font-family:sans-serif;
+}
+.flex{
+    display: flex;
+}
+header{
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#navbar{
+    font-size: smaller;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+}
+#button1{
+    background-color: rgba(255,255,255,.25);
+    border-radius: 35%;
+    border-color: rgba(255,255,255,.28);
+    padding: 0.5rem;
+}
