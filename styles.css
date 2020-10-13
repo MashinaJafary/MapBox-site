@@ -1,5 +1,5 @@
 body{
-    background-color:black;
+    background-color:#121212;
     font-family:sans-serif;
 }
 .flex{
@@ -43,8 +43,9 @@ li{
         background-size: cover;
         color: white;
         background-position: right;
-        width: 250rem;
-        height: 25rem;
+        object-position: center;
+        /* width: 250rem;
+        height: 25rem; */
         border-radius: 10%;
         padding-top: 0%;
         padding-left: 9%;
@@ -97,4 +98,27 @@ li{
     padding-top: 0%;
     justify-content: space-between;
     flex-direction: column;
+}
+/* main section*/
+#main{
+    color: white;
+    text-align: center;
+    font-size: 0.875rem;
+    
+}
+#main>h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 0.9;
+}
+#main>p{
+    color: #90bdd0;
+    font-size: 1.2rem;
+}
+#button3{
+    padding: 0.75rem 2.1875rem;
+    background-color: #007afc;
+    color: white;
+    border-radius: 6.25rem;
+    border-color: transparent;
 }
