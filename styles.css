@@ -33,7 +33,8 @@ li{
 }
 /* barner*/
 #banner{
-    justify-content: space-between;
+    justify-content: space-around;
+ 
 }
 #img-video{
     border-radius: 30%;   
@@ -46,6 +47,8 @@ li{
         object-position: center;
         /* width: 250rem;
         height: 25rem; */
+        margin-left: 2rem;
+        margin-right: 2rem;
         border-radius: 10%;
         padding-top: 0%;
         padding-left: 9%;
@@ -72,6 +75,7 @@ li{
     background-color: transparent;
     color: white;
     border-radius: 0.75rem;
+    padding: 0.75rem 2.1875rem;
 }
 #new-products{
     background-image: url("assets/new-products.jpg");
@@ -80,6 +84,8 @@ li{
     color: white;
     width: 350rem;
     height: 25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border-radius: 10%;
     padding: 9%;
     padding-top: 0%;
@@ -121,4 +127,30 @@ li{
     color: white;
     border-radius: 6.25rem;
     border-color: transparent;
+}
+/* MAPS*/
+#map{
+    
+    text-align: center;
+    font-size: 0.875rem;
+    
+    
+}
+#map>h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 0.9;
+}
+#map>p{
+    color: #90bdd0;
+    font-size: 1.2rem;
+}
+#map-image{
+    justify-content: space-around;
+}
+#bottom{
+    align-self: flex-end;
+    margin-left: 3em;
+    margin-right: 3rem;
 }
