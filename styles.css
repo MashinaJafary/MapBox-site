@@ -216,8 +216,13 @@ font-size: 4rem;
 /*straight-away*/
 #straight-away{
     background-color: #2e2bb8;
-    justify-content: space-between;
+    justify-content: end;
     padding-left: 10%;
+    border-radius: 2rem;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #tag3{
@@ -228,6 +233,5 @@ font-size: 4rem;
     background-color:white;
     box-shadow: 0 0 0.5rem 0 white;
 }
-#straight-away-image{
-    object-fit: contain;
-}
+/* #straight-away-image{
+} */
