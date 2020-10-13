@@ -170,3 +170,29 @@ li{
 #studio-words{
     align-self: center;
 }
+
+/* navigation*/
+
+#navigation{
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+#navH2{
+color: white;
+font-size: 4rem;
+}
+#navP{
+    color: #90bdd0;
+}
+#tab-image{
+    margin-bottom: -10rem;
+}
+#phone-image{
+    margin-top: -300rem;
+    margin-right: -5rem;
+}
+
+/*search*/
+#search{
+    margin-top: 10rem;
+}
