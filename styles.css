@@ -258,6 +258,8 @@ font-size: 4rem;
 /* DATA */
 #data{
     justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 #data-words>h2{
     font-size: 4rem;
