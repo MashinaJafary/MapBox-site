@@ -243,7 +243,7 @@ font-size: 4rem;
 
 /* VISION */
 #vision{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #vision-words>h2{
     font-size: 4rem;
@@ -253,4 +253,18 @@ font-size: 4rem;
     font-size: 1.5rem;
     line-height: 1.5rem;
     color: #90bdd0;  
+}
+
+/* DATA */
+#data{
+    justify-content: space-around;
+}
+#data-words>h2{
+    font-size: 4rem;
+    color: white;
+}
+#data-words>p{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #90bdd0;
 }
