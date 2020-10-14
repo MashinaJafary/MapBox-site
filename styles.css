@@ -270,3 +270,35 @@ font-size: 4rem;
     line-height: 1.5rem;
     color: #90bdd0;
 }
+/* MAPBOX PLATFORMS */
+
+#mapbox-platform>h2{
+    font-size: 3.5rem;
+    line-height: 1.1em;
+    text-align: center;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+
+  .grid>div{
+    height: 21rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #202020;
+}
+ .grid>#platform:hover{
+    background-color: #007afc;
+    height: 21rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+#platform>h3{
+    color: white;
+    font-weight: 700;
+}
