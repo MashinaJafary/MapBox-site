@@ -332,9 +332,11 @@ font-size: 4rem;
     padding-left: 1rem; 
     border-radius: 24px;
 }
-#image{
+#strava{
     background-color: #616347;
     border-radius: 1.5rem;
+    width: 35rem;
+    
 }
 #case2{
     justify-content: space-around;
