@@ -21,7 +21,7 @@ a{
 ul{
     list-style: none;
 }
-li{
+#head{
     display: inline-block;
     padding: 0.75rem 1.25rem;
 }
@@ -341,4 +341,34 @@ font-size: 4rem;
 #case2{
     justify-content: space-around;
     margin-top: 5%;
+}
+
+/*FOOTER */
+#footer{
+    justify-content: space-around;
+    background-color: #121212;
+}
+#h2footer{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: white;
+}
+#lifooter{
+    line-height: 2rem;
+}
+#lifooter a{
+    color: #9ba2b2;
+    font-size: 0.8rem;
+}
+#ul-footer{
+    margin-left: -2.5rem;
+}
+#footer-end{
+    color: #9cacb4;
+    font-size: 0.8rem;
+    padding: 4rem;
+}
+#footer-end>div a{
+    padding: 1rem;
+    color: #9cacb4;
 }
