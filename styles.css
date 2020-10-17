@@ -43,17 +43,16 @@ ul{
         background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7f87f8b6b607a20cba558e_mts%20card.jpg");
         background-size: cover;
         color: white;
-        background-position: right;
+        background-position: center;
         object-position: center;
-        /* width: 250rem;
-        height: 25rem; */
+        height: 25rem;
         margin-left: 2rem;
         margin-right: 2rem;
         border-radius: 10%;
         padding-top: 0%;
-        padding-left: 9%;
-        padding-right: 9%;
-        padding-bottom: 9%;
+        padding-left: 4%;
+        padding-right: 40%; 
+        padding-bottom: 4%;
         justify-content: space-between;
         flex-direction: column;
 }
@@ -87,11 +86,18 @@ ul{
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: 10%;
-    padding: 9%;
     padding-top: 0%;
+    padding-left: 4%;
+    padding-right: 20%; 
+    padding-bottom: 4%;
     justify-content: space-between;
     flex-direction: column;
 }
+
+#self-center{
+    align-self: flex-start;
+}
+
 #product-update{
     background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7f87f8b6b607290cba5589_nav%20card.jpg");
     object-fit: cover;
@@ -100,8 +106,10 @@ ul{
     width: 250rem;
     height: 25rem;
     border-radius: 10%;
-    padding: 9%;
     padding-top: 0%;
+    padding-left: 4%;
+    padding-right: 20%; 
+    padding-bottom: 4%;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -161,6 +169,7 @@ ul{
 #mapbox-studio{
     justify-content: space-around;
     margin-top: 15rem;
+    margin-left: 1rem;
 }
 #mapbox-studio>div h4{
     color: white;
@@ -174,6 +183,7 @@ ul{
 }
 #studio-words{
     align-self: center;
+    margin-left: 1rem;
 }
 
 /* navigation*/
@@ -229,7 +239,7 @@ font-size: 4rem;
 #tag3{
     display: inline-block;
     margin-bottom: 2.4rem;
-    padding: 4px 8px;
+    padding: 4px 0.5rem;
     border-radius: 4px;
     background-color:white;
     box-shadow: 0 0 0.5rem 0 white;
@@ -240,7 +250,6 @@ font-size: 4rem;
     color: white;
 }
 #straight-away-image{
-    margin-right: 0%;
     margin-right: -22rem;
     margin-bottom: 0%;
 } 
@@ -372,6 +381,7 @@ font-size: 4rem;
 #footer{
     justify-content: space-around;
     background-color: #121212;
+
 }
 #h2footer{
     font-size: 0.75rem;
@@ -385,10 +395,14 @@ font-size: 4rem;
     color: #9ba2b2;
     font-size: 0.8rem;
 }
+#lifooter a:hover{
+    color: #007afc;
+}
 #ul-footer{
     margin-left: -2.5rem;
 }
 #footer-end{
+    justify-content: space-between;
     color: #9cacb4;
     font-size: 0.8rem;
     padding: 4rem;
@@ -396,4 +410,7 @@ font-size: 4rem;
 #footer-end>div a{
     padding: 1rem;
     color: #9cacb4;
+}
+#social-media>a:hover{
+    color: #007afc;
 }
