@@ -37,7 +37,10 @@ ul{
  
 }
 #img-video{
-    border-radius: 30%;   
+    border-radius: 30%;
+    padding-top: 0%;
+    padding-left: 4%;
+    padding-bottom: 4%; 
 }
 #new-services{
         background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f7f87f8b6b607a20cba558e_mts%20card.jpg");
@@ -51,7 +54,7 @@ ul{
         border-radius: 10%;
         padding-top: 0%;
         padding-left: 4%;
-        padding-right: 40%; 
+        padding-right: 10%; 
         padding-bottom: 4%;
         justify-content: space-between;
         flex-direction: column;
@@ -88,7 +91,7 @@ ul{
     border-radius: 10%;
     padding-top: 0%;
     padding-left: 4%;
-    padding-right: 20%; 
+    padding-right: 10%; 
     padding-bottom: 4%;
     justify-content: space-between;
     flex-direction: column;
@@ -108,7 +111,7 @@ ul{
     border-radius: 10%;
     padding-top: 0%;
     padding-left: 4%;
-    padding-right: 20%; 
+    padding-right: 10%; 
     padding-bottom: 4%;
     justify-content: space-between;
     flex-direction: column;
