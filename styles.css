@@ -341,11 +341,14 @@ font-size: 4rem;
 
 #snap{
     background-color: #fff95f;
+    background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74f368358bcf0a058b992b_snap.png");
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    background-position-y:13rem ;
+    background-size: 20rem;
     height: 26rem;
     width: 35rem;
-    /* max-height: 37vw; */
-     padding-top: 54px;
-    /* padding-right: 24px; */
+    padding-top: 54px;
     padding-left: 1rem; 
     border-radius: 24px;
 }
@@ -353,12 +356,12 @@ font-size: 4rem;
     background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74f5b2c5539a3efa41054c_strava.png");
     background-color: #616347;
     border-radius: 1.5rem;
-    width: 30rem;
+    width: 35rem;
     padding: 24px;
 } 
 #case2{
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 #weather{
     background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74f665ada191d7a6b9b988_twc.jpeg");
@@ -369,8 +372,14 @@ font-size: 4rem;
 }
 #shopfy{
     background-color: #e2e2e2;
+    background-image: url("https://assets.website-files.com/5f747fc7980b0f825eca0539/5f74f725fef3e36d6257ccb6_shopyfy.png");
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    background-position-y:10rem ;
+    background-size: 10rem;
     border-radius: 1.5rem;
     width: 35rem;
+    height: 20rem;
     padding: 2%;
 }
 #shopfy-logo{
