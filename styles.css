@@ -205,15 +205,17 @@ font-size: 4rem;
 }
 #navP{
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     color: #90bdd0;
 }
 #tab-image{
     margin-bottom: -10rem;
+    margin-left: -1rem;
 }
 #phone-image{
     margin-top: -10rem;
     margin-right: -5rem;
+    margin-left: -15rem;
 } 
 
 /*search*/
@@ -293,7 +295,7 @@ font-size: 4rem;
 }
 #data-words>p{
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     color: #90bdd0;
 }
 
