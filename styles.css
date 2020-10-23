@@ -175,6 +175,9 @@ ul{
     margin-top: 15rem;
     margin-left: 1rem;
 }
+#studio-words{
+    margin-left: 4%;
+}
 #mapbox-studio>div h4{
     color: white;
     font-size: 4rem;
@@ -182,7 +185,7 @@ ul{
 }
 #mapbox-studio>div p{
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
     color: #90bdd0;
 }
 #studio-words{
@@ -209,7 +212,7 @@ font-size: 4rem;
     margin-bottom: -10rem;
 }
 #phone-image{
-    margin-top: -100rem;
+    margin-top: -10rem;
     margin-right: -5rem;
 } 
 
