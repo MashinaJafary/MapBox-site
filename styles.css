@@ -132,10 +132,11 @@ ul{
 }
 #main>p{
     color: #90bdd0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 #button3{
-    padding: 0.75rem 2.1875rem;
+    font-size: larger;
+    padding: 1rem 4rem;
     background-color: #007afc;
     color: white;
     border-radius: 6.25rem;
@@ -143,11 +144,9 @@ ul{
 }
 /* MAPS*/
 #map{
-    
     text-align: center;
     font-size: 0.875rem;
-    
-    
+    line-height: 2rem;
 }
 #map>h2{
     color: white;
