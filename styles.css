@@ -254,7 +254,7 @@ font-size: 4rem;
 #straight-away-P{
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: black;
+    color: #3b3959
 }
 #straight-away-image{
     margin-right: -20rem;
@@ -262,7 +262,7 @@ font-size: 4rem;
 } 
 #button4{
     background-color: transparent;
-    color:black;
+    color: #3b3959
     border-radius: 0.75rem;
     padding: 0.75rem 2.1875rem;
 }
