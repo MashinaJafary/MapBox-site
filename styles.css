@@ -338,13 +338,19 @@ font-size: 4rem;
     border-radius: 1rem;
     background-color: #202020;
 }
- .grid>#platform:hover{
+#platform:hover{
     background-color: #007afc;
-    height: 21rem;
+    border-radius: 1rem;
+    transform: scale(1);
+    transition:all 1ms ;
+}
+ #picha:hover{
+    background-color: #007afc;
+    width: 18rem;
     padding: 0.5rem;
     border-radius: 1rem;
     transform: scale(0.8);
-    transition:all 1ms ;
+    transition:all 10ms ;
 }
 #platform>h3{
     color: white;
