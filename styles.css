@@ -209,9 +209,9 @@ font-size: 4rem;
     margin-bottom: -10rem;
 }
 #phone-image{
-    margin-top: -300rem;
+    margin-top: -100rem;
     margin-right: -5rem;
-}
+} 
 
 /*search*/
 #search{
@@ -230,7 +230,7 @@ font-size: 4rem;
 
 /*straight-away*/
 #straight-away{
-    background-color: #2e2bb8;
+    background-color:white;
     justify-content: space-between;
     padding-left: 10%;
     border-radius: 2rem;
@@ -245,18 +245,24 @@ font-size: 4rem;
     margin-bottom: 2.4rem;
     padding: 4px 0.5rem;
     border-radius: 4px;
-    background-color:white;
-    box-shadow: 0 0 0.5rem 0 white;
+    background-color: #2e2bb8;
+    box-shadow: 0 0 0.5rem 0 #2e2bb8;
 }
 #straight-away-P{
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: white;
+    color: black;
 }
 #straight-away-image{
-    margin-right: -22rem;
+    margin-right: -20rem;
     margin-bottom: 0%;
 } 
+#button4{
+    background-color: transparent;
+    color:black;
+    border-radius: 0.75rem;
+    padding: 0.75rem 2.1875rem;
+}
 
 /* VISION */
 #vision{
@@ -287,6 +293,21 @@ font-size: 4rem;
     line-height: 1.5rem;
     color: #90bdd0;
 }
+
+/* ATLAS */
+#atlas{
+    justify-content: space-between;
+}
+#atlas-words>h2{
+    font-size: 4rem;
+    color: white;
+}
+#atlas-words>p{ 
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #90bdd0;  
+}
+
 /* MAPBOX PLATFORMS */
 
 #mapbox-platform>h2{
@@ -314,6 +335,8 @@ font-size: 4rem;
     height: 21rem;
     padding: 0.5rem;
     border-radius: 1rem;
+    transform: scale(0.8);
+    transition:all 1ms ;
 }
 #platform>h3{
     color: white;
