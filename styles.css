@@ -296,7 +296,11 @@ font-size: 4rem;
 
 /* ATLAS */
 #atlas{
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}#atlas-words{
+    margin-left: 4%;
 }
 #atlas-words>h2{
     font-size: 4rem;
@@ -304,8 +308,9 @@ font-size: 4rem;
 }
 #atlas-words>p{ 
     font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: #90bdd0;  
+    line-height: 2rem;
+    color: #90bdd0;
+    margin-left: 2%; 
 }
 
 /* MAPBOX PLATFORMS */
