@@ -152,13 +152,12 @@ ul{
     color: white;
     font-weight: bolder;
     font-size: 4rem;
-    line-height: 0.9;
+    line-height: 2rem;
 }
 #map>p{
     font-size: 1.5rem;
-    line-height: 1.5rem;
-    color: #90bdd0;
-    
+    line-height: 2rem;
+    color: #9ba2b2;    
 }
 #map-image{
     justify-content: space-around;
@@ -185,7 +184,7 @@ ul{
 #mapbox-studio>div p{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #90bdd0;
+    color: #9ba2b2;
 }
 #studio-words{
     align-self: center;
@@ -205,7 +204,7 @@ font-size: 4rem;
 #navP{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #90bdd0;
+    color: #9ba2b2;
 }
 #tab-image{
     margin-bottom: -10rem;
@@ -229,7 +228,7 @@ font-size: 4rem;
 #search-words>p{
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: #90bdd0;
+    color: #9ba2b2;
 }
 
 /*straight-away*/
@@ -279,7 +278,7 @@ font-size: 4rem;
 #vision-words>p{ 
     font-size: 1.5rem;
     line-height: 1.5rem;
-    color: #90bdd0;  
+    color: #9ba2b2;  
 }
 
 /* DATA */
@@ -295,7 +294,7 @@ font-size: 4rem;
 #data-words>p{
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #90bdd0;
+    color: #9ba2b2;
 }
 
 /* ATLAS */
@@ -313,7 +312,7 @@ font-size: 4rem;
 #atlas-words>p{ 
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #90bdd0;
+    color: #9ba2b2;
     margin-left: 2%; 
 }
 
