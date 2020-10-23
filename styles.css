@@ -341,8 +341,6 @@ font-size: 4rem;
 #platform:hover{
     background-color: #007afc;
     border-radius: 1rem;
-    transform: scale(1);
-    transition:all 1ms ;
 }
  #picha:hover{
     background-color: #007afc;
@@ -350,7 +348,7 @@ font-size: 4rem;
     padding: 0.5rem;
     border-radius: 1rem;
     transform: scale(0.7);
-    transition:all 10ms ;
+    transition:all 0.3s ease-in-out;
 }
 #platform>h3{
     color: white;
